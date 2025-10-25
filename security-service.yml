@@ -8,5 +8,6 @@ spring:
       ddl-auto: update
     show-sql: true
 jwt:
-  secret: esta_es_una_clave_super_secreta
-  expiration: 6000
+  secret: mySuperSecretKey
+  expiration: 3600000
+
